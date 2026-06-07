@@ -11,10 +11,14 @@
             "id": "7212a97ec3309e56",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "type": "markdown",
+              "state": {
+                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Begriffe & Defintionen"
             }
           }
         ]
@@ -180,8 +184,9 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "67ceb2d883130bd0",
+  "active": "7212a97ec3309e56",
   "lastOpenFiles": [
+    "README.md",
     "Begriffe & Definitionen.md",
     "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
     "Willkommen.md",
