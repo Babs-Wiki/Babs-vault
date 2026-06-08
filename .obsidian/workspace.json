@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "# unsortierte Begriffe"
             }
+          },
+          {
+            "id": "d64f57ad099ccc90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Begriffe & Defintionen"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,10 +199,11 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "7212a97ec3309e56",
+  "active": "d64f57ad099ccc90",
   "lastOpenFiles": [
-    "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+    "conflict-files-obsidian-git.md",
     "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
     "README.md",
     "50 - Lernjournal/2026-06/2026-06-08.md",
     "Pasted image 20260608211512.png",
