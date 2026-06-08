@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+                "file": "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Begriffe & Defintionen"
+              "title": "# unsortierte Begriffe"
             }
           }
         ]
@@ -186,19 +186,23 @@
   },
   "active": "7212a97ec3309e56",
   "lastOpenFiles": [
-    "README.md",
-    "Begriffe & Definitionen.md",
     "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+    "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
+    "README.md",
+    "50 - Lernjournal/2026-06/2026-06-08.md",
+    "Pasted image 20260608211512.png",
+    "Pasted image 20260608211438.png",
+    "50 - Lernjournal/2026-06",
+    "30 - Tests/Testprotokolle",
+    "20 - Systeme/Meine Systeme",
+    "70 - Sprachen-Glossar/IT-Glossar",
+    "70 - Sprachen-Glossar",
+    "10 - Wissen/10.90 - Umsortieren",
+    "90 - Archiv",
+    "60 - Projekte",
+    "10 - Wissen/10.60 - Entwicklung",
+    "Begriffe & Definitionen.md",
     "Willkommen.md",
-    "Unbenannt",
-    "20 - Projekte/20.30 - Ideen & Brainstorming",
-    "20 - Projekte/20.20 - Lernprojekte",
-    "20 - Projekte/20.10 - Arbeitsprojekte",
-    "10 - Wissen/10.50 - Tools & Programme",
-    "10 - Wissen/10.40 - Troubleshooting",
-    "10 - Wissen/10.30 -IT-Grundlagen",
-    "10 - Wissen/10.20 - SAP",
-    "10 - Wissen/10.10 - Begriffe und Definitionen",
-    "50 - Privat"
+    "60 - Projekte/60.30 - Ideen & Brainstorming"
   ]
 }
