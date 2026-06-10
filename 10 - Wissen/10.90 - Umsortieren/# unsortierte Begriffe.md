@@ -1,1 +1,30 @@
- - Anonymisierungstools
+
+- AD
+- Airlock
+- Anonymisierungstools
+- Avanti DV net
+- BD/RS/PRA
+- Bougart (?)
+- BRF+ Regeln
+- Cache
+- Delta Load
+- EPIC (Jira)
+- Fat Client
+- geklastert
+- GOK
+- n/a
+- OAWR
+- OSS Meldung
+- Otosam (evtl. SKL)
+- Polap (?)
+- Puffer
+- Radis (?) Statistik-Tool
+- RAL
+- Rollbackmechanismus
+- Slight
+- Stakeholder
+- SZP
+- Visio
+- Was ist die Checkbox darin
+- Was macht ein Webservice
+- White Links

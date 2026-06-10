@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+                "file": "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Begriffe & Defintionen"
+              "title": "# unsortierte Begriffe"
             }
           }
         ],
@@ -201,11 +201,14 @@
   },
   "active": "d64f57ad099ccc90",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Windows & Tastenkombinationen.md",
     "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
     "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
-    "README.md",
+    "50 - Lernjournal/2026-06/2026-06-09.md",
     "50 - Lernjournal/2026-06/2026-06-08.md",
+    "50 - Lernjournal/2026-06/2026-06-09",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "Pasted image 20260608211512.png",
     "Pasted image 20260608211438.png",
     "50 - Lernjournal/2026-06",
@@ -218,7 +221,6 @@
     "60 - Projekte",
     "10 - Wissen/10.60 - Entwicklung",
     "Begriffe & Definitionen.md",
-    "Willkommen.md",
-    "60 - Projekte/60.30 - Ideen & Brainstorming"
+    "Willkommen.md"
   ]
 }
