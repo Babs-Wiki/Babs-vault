@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
-                "mode": "source",
+                "file": "10 - Wissen/10.30 -IT-Grundlagen/XML.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "# unsortierte Begriffe"
-            }
-          },
-          {
-            "id": "d64f57ad099ccc90",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260608211512.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260608211512"
+              "title": "XML"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,21 +184,26 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "d64f57ad099ccc90",
+  "active": "7212a97ec3309e56",
   "lastOpenFiles": [
+    "10 - Wissen/10.30 -IT-Grundlagen/Webservice.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/IT-Begriffe & Benutzeroberflächen.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/API.md",
+    "50 - Lernjournal/2026-06/2026-06-11.md",
+    "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Windows & Tastenkombinationen.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/XML.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+    "50 - Lernjournal/2026-06/2026-06-09.md",
+    "Pasted image 20260608211512.png",
     "10 - Wissen/10.50 - Tools & Programme/Visio.md",
     "10 - Wissen/10.50 - Tools & Programme/Regedit.md",
     "10 - Wissen/10.40 - Troubleshooting/Hotfix.md",
     "10 - Wissen/10.60 - Entwicklung/Diverse.md",
-    "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/Windows & Tastenkombinationen.md",
-    "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
-    "50 - Lernjournal/2026-06/2026-06-09.md",
     "50 - Lernjournal/2026-06/2026-06-08.md",
     "50 - Lernjournal/2026-06/2026-06-09",
     "conflict-files-obsidian-git.md",
     "README.md",
-    "Pasted image 20260608211512.png",
     "Pasted image 20260608211438.png",
     "50 - Lernjournal/2026-06",
     "30 - Tests/Testprotokolle",
