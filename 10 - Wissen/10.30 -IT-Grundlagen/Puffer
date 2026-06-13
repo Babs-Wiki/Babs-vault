@@ -4,12 +4,104 @@
 
 Ein Puffer speichert Daten kurzfristig zwischen, bis sie weiterverarbeitet werden.
 
+Er dient als Wartebereich, damit Daten nicht verloren gehen und geordnet verarbeitet werden können.
+
+---
+
+## Vergleich aus dem Alltag
+
+Ein Puffer funktioniert oft wie ein Wartezimmer beim Arzt:
+
+Patienten kommen an
+↓
+Wartezimmer (Puffer)
+↓
+Arzt behandelt sie nacheinander
+↓
+fertig
+
+Der Puffer sorgt dafür, dass nicht alle gleichzeitig verarbeitet werden müssen.
+
+---
+
+## Beispiele in der IT
+
+### Druckaufträge
+
+Mehrere Benutzer senden gleichzeitig Druckaufträge.
+
+Benutzer
+↓
+Druckerwarteschlange (Puffer)
+↓
+Drucker verarbeitet Auftrag für Auftrag
+
+---
+
+### Webservice-Anfragen
+
+Mehrere Systeme senden gleichzeitig Anfragen.
+
+Systeme
+↓
+Puffer
+↓
+Webservice verarbeitet die Anfragen nacheinander
+
+Beispiel:
+
+System A fragt Daten an
+System B fragt gleichzeitig Daten an
+System C fragt gleichzeitig Daten an
+
+Der Puffer hält die Anfragen in Reihenfolge.
+
+---
+
+### Datenimporte
+
+Viele Datensätze werden importiert.
+
+Datei
+↓
+Puffer
+↓
+System verarbeitet Datensatz für Datensatz
+
+Beispiel:
+
+1000 Datensätze kommen an.
+
+Das System kann nicht alle gleichzeitig bearbeiten und arbeitet sie nacheinander ab.
+
+---
+
+### Log-Dateien
+
+Systemereignisse entstehen laufend.
+
+System
+↓
+Puffer
+↓
+Logs werden gespeichert oder ausgewertet
+
+Beispiel:
+
+Fehler, Warnungen und Anmeldungen werden gesammelt und später verarbeitet.
+
+---
+
 ## Unterschied zu Cache
 
-Cache = schneller Wiederzugriff
+Cache = schneller Wiederzugriff auf bereits bekannte Daten
 
 Puffer = kurzfristiges Warten auf Verarbeitung
 
+---
+
 ## Merksatz
 
-Puffer = Wartebereich für Daten
+Ein Puffer ist ein Wartebereich für Daten.
+
+Er sorgt dafür, dass Daten geordnet und nacheinander verarbeitet werden können.
