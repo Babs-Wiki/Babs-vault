@@ -1,4 +1,4 @@
-# Delta Load.md
+# Delta Load
 
 ## Definition
 
