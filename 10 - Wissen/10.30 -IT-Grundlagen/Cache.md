@@ -1,4 +1,4 @@
-# Cache.md
+# Cache
 
 ## Definition
 
