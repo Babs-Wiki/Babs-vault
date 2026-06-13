@@ -1,0 +1,18 @@
+# Cache
+
+## Definition
+
+Ein Cache ist ein temporärer Zwischenspeicher für Daten, damit Informationen schneller verfügbar sind.
+
+## Vorteil
+
+- schneller Zugriff
+- weniger Belastung des Systems
+
+## Problem
+
+Der Cache kann veraltete Daten enthalten.
+
+## Merksatz
+
+Cache = schneller Zwischenspeicher
