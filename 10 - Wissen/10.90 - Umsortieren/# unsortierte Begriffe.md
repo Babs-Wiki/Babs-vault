@@ -6,9 +6,7 @@ Avanti DV net
 BD/RS/PRA
 Bougart (?)
 BRF+ Regeln
-Cache
 Canvas
-Delta Load
 EPIC (Jira)
 Fat Client
 Feature Creep (?)
@@ -19,7 +17,6 @@ OAWR
 OSS Meldung
 Otosam (evtl. SKL)
 Polap (?)
-Puffer
 Radis (?) Statistik-Tool
 RAL
 Rollbackmechanismus
