@@ -1,0 +1,15 @@
+# Puffer
+
+## Definition
+
+Ein Puffer speichert Daten kurzfristig zwischen, bis sie weiterverarbeitet werden.
+
+## Unterschied zu Cache
+
+Cache = schneller Wiederzugriff
+
+Puffer = kurzfristiges Warten auf Verarbeitung
+
+## Merksatz
+
+Puffer = Wartebereich für Daten
