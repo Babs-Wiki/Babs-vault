@@ -19,13 +19,9 @@ Otosam (evtl. SKL)
 Polap (?)
 Radis (?) Statistik-Tool
 RAL
-Rollbackmechanismus
 SAS
 Scope Creep (?)
 Slight
 Stakeholder
 SZP
-Visio
-Was ist die Checkbox darin
-Webservice-Fehler
 White Links
