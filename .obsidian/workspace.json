@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Wissen/10.30 -IT-Grundlagen/XML.md",
-                "mode": "preview",
+                "file": "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "XML"
+              "title": "# unsortierte Begriffe"
             }
           }
         ]
@@ -186,24 +186,36 @@
   },
   "active": "7212a97ec3309e56",
   "lastOpenFiles": [
-    "10 - Wissen/10.30 -IT-Grundlagen/Webservice.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/IT-Begriffe & Benutzeroberflächen.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/API.md",
-    "50 - Lernjournal/2026-06/2026-06-11.md",
-    "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/Windows & Tastenkombinationen.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/XML.md",
     "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+    "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
+    "50 - Lernjournal/2026-06/2026-06-16.md",
+    "10 - Wissen/10.40 - Troubleshooting/Hotfix.md",
+    "10 - Wissen/10.40 - Troubleshooting/PDF öffent im Edge, nicht im XChange.md",
+    "50 - Lernjournal/2026-06/2026-06-08.md",
     "50 - Lernjournal/2026-06/2026-06-09.md",
+    "50 - Lernjournal/2026-06/2026-06-11.md",
+    "50 - Lernjournal/2026-06/2026-06-12.md",
+    "50 - Lernjournal/2026-06/2026-06-15.md",
+    "10 - Wissen/10.40 - Troubleshooting/Attributhinweis.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Lernketten/Index.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/API.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Synchron und Asynchron.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Rollbackmechanismus.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/IT-Begriffe & Benutzeroberflächen.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/XML.md",
+    "50 - Lernjournal/2026-06/2026-06-15",
+    "10 - Wissen/10.30 -IT-Grundlagen/Puffer.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Lernketten",
+    "10 - Wissen/10.30 -IT-Grundlagen/Delta Load.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Checkbox (Webservice).md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Cache.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Webservice.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Windows & Tastenkombinationen.md",
     "Pasted image 20260608211512.png",
     "10 - Wissen/10.50 - Tools & Programme/Visio.md",
     "10 - Wissen/10.50 - Tools & Programme/Regedit.md",
-    "10 - Wissen/10.40 - Troubleshooting/Hotfix.md",
     "10 - Wissen/10.60 - Entwicklung/Diverse.md",
-    "50 - Lernjournal/2026-06/2026-06-08.md",
     "50 - Lernjournal/2026-06/2026-06-09",
-    "conflict-files-obsidian-git.md",
-    "README.md",
     "Pasted image 20260608211438.png",
     "50 - Lernjournal/2026-06",
     "30 - Tests/Testprotokolle",
@@ -211,10 +223,6 @@
     "70 - Sprachen-Glossar/IT-Glossar",
     "70 - Sprachen-Glossar",
     "10 - Wissen/10.90 - Umsortieren",
-    "90 - Archiv",
-    "60 - Projekte",
-    "10 - Wissen/10.60 - Entwicklung",
-    "Begriffe & Definitionen.md",
-    "Willkommen.md"
+    "90 - Archiv"
   ]
 }

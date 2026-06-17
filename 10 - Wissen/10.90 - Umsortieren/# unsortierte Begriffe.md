@@ -8,6 +8,7 @@ Bougart (?)
 BRF+ Regeln
 Canvas
 EPIC (Jira)
+Eranesos?
 Fat Client
 Feature Creep (?)
 geklastert
@@ -22,6 +23,5 @@ RAL
 SAS
 Scope Creep (?)
 Slight
-Stakeholder
 SZP
 White Links

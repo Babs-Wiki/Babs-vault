@@ -42,3 +42,15 @@ Häufig genutzte Daten können im [[Cache]] gespeichert werden, damit sie schnel
 
 Wenn ein Fehler passiert, sorgt der [[Rollbackmechanismus]] dafür, dass alles auf den letzten sicheren Zustand zurückgesetzt wird.
 
+```text
+
+## SAP GUI
+↓
+Tabellen
+↓
+Daten vergleichen
+↓
+LEFT JOIN
+↓
+Fehleranalyse
+---
