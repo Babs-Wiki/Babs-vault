@@ -19,3 +19,4 @@
 | Smart Value Help | Intelligente Such- und Auswahlhilfe, die während der Eingabe passende Werte vorschlägt | 'smart value help |
 | Hotfix | Schnelle Fehlerkorrektur für ein akutes Problem, ohne auf das nächste reguläre Update zu warten | 'hot-fix |
 | Stakeholder | Person oder Gruppe, die von einem Projekt, System oder einer Änderung betroffen ist oder Einfluss darauf hat | 'steik-holder |
+| Konsolidieren | Mehrere einzelne Informationen, Daten oder Prozesse zusammenführen, vereinheitlichen oder bereinigen | kon-so-li-die-ren |
