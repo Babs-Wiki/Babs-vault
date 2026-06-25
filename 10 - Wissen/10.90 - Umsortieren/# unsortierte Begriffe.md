@@ -29,4 +29,8 @@ Proxi
 Q User
 Lan I
 NAT Firewall?
-ivanti?
+ivanti = Umgebungsapp für Police Apps
+Queri = Abfrage?
+GPO = Irgnedwie interne Regeln in den einstellungen der User PCs
+CMI= Programm für Geschäftskontrolle
+Konsolidieren?
