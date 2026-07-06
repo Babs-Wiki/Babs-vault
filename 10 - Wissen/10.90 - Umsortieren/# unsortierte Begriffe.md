@@ -34,3 +34,11 @@ Queri = Abfrage?
 GPO = Irgnedwie interne Regeln in den einstellungen der User PCs
 CMI= Programm für Geschäftskontrolle
 Konsolidieren?
+abgesicherter Modus = ctrl + Word, was ist das für ein Modus
+Robocopi?
+Konfig files?
+CAB = 
+Ini File
+Dateien MSI
+LTR
+Registry
