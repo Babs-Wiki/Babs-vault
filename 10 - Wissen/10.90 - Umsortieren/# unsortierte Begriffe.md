@@ -43,3 +43,5 @@ Dateien MSI
 LTR
 Registry
 Awarnesskampagnie?
+Notwes Modus?
+Repos?
