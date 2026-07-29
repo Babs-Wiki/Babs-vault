@@ -84,3 +84,9 @@ Neue Ideen oder Verbesserungen werden zuerst getestet.
 Erst wenn sie sich bewährt haben, werden sie für alle Begriffe übernommen.
 
 So bleibt das Glossar über Jahre hinweg einheitlich.
+
+# Vertiefungen
+
+Alle optionalen Informationen werden mit `<details>` umgesetzt.
+
+Dadurch bleibt jeder Begriff kompakt und sowohl in GitHub als auch in Obsidian übersichtlich.

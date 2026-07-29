@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/Regeln.md",
+                "file": "10 - Wissen/10.10 - Begriffe und Definitionen/R.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Regeln"
+              "title": "R"
             }
           }
         ]
@@ -196,10 +196,12 @@
   },
   "active": "7212a97ec3309e56",
   "lastOpenFiles": [
-    "10 - Wissen/10.10 - Begriffe und Definitionen/A.md",
-    "10 - Wissen/10.10 - Begriffe und Definitionen/Regeln.md",
-    "10 - Wissen/10.10 - Begriffe und Definitionen/AA.md",
     "10 - Wissen/10.10 - Begriffe und Definitionen/Begriffe & Defintionen.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/A.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/R.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/AA.md",
+    "10 - Wissen/10.30 -IT-Grundlagen/Webservice.md",
+    "10 - Wissen/10.10 - Begriffe und Definitionen/Regeln.md",
     "10 - Wissen/10.30 -IT-Grundlagen/API.md",
     "10 - Wissen/10.90 - Umsortieren/# unsortierte Begriffe.md",
     "10 - Wissen/10.30 -IT-Grundlagen/Lernketten/Webservice-Kette.md",
@@ -222,8 +224,6 @@
     "10 - Wissen/10.30 -IT-Grundlagen/Puffer.md",
     "10 - Wissen/10.30 -IT-Grundlagen/Lernketten",
     "10 - Wissen/10.30 -IT-Grundlagen/Delta Load.md",
-    "10 - Wissen/10.30 -IT-Grundlagen/Checkbox (Webservice).md",
-    "10 - Wissen/10.30 -IT-Grundlagen/Cache.md",
     "Pasted image 20260608211512.png",
     "50 - Lernjournal/2026-06/2026-06-09",
     "Pasted image 20260608211438.png",
