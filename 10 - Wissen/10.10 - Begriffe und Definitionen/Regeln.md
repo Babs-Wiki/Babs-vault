@@ -1,12 +1,63 @@
 # Ziel
 
-Das Glossar ist das Herzstück des Babs-Wikis.
+Das Babs-Wiki soll ein persönliches Nachschlagewerk für den Arbeitsalltag und die Umschulung sein.
 
-Es soll im Arbeitsalltag innerhalb weniger Sekunden die wichtigsten Fragen beantworten und gleichzeitig genügend Hintergrundwissen für das Lernen zu Hause bieten.
+Das Ziel ist nicht, möglichst viele Informationen zu sammeln, sondern Wissen schnell wiederzufinden und Zusammenhänge zu verstehen.
 
 ---
 
-# Aufbau eines Begriffs
+# Aufbau des Wikis
+
+Das Wiki besteht aus drei Ebenen:
+
+## 📚 Glossar
+
+Kurze Erklärungen zum schnellen Nachschlagen.
+
+Jeder Begriff beantwortet zuerst:
+
+- Was ist das?
+- Wozu dient das?
+- Merksatz
+
+Danach folgen – sofern nötig – Vertiefungen.
+
+---
+
+## 🔗 Lernketten
+
+Lernketten zeigen Zusammenhänge zwischen mehreren Begriffen.
+
+Sie dienen dem Verständnis und nicht als Nachschlagewerk.
+
+---
+
+## 📖 Vertiefungsseiten
+
+Vertiefungsseiten entstehen nur bei Themen, die umfangreicher werden.
+
+Sie enthalten ausführliche Erklärungen, Beispiele und Hintergrundwissen.
+
+---
+
+# Glossar
+
+Das Glossar ist das Herzstück des Babs-Wikis.
+
+Es wird alphabetisch in A.md bis Z.md organisiert.
+
+Jede Datei beginnt mit einer Übersicht aller enthaltenen Begriffe.
+
+Beispiel:
+
+## Übersicht
+
+- [API](#api)
+- [Asynchron](#asynchron)
+
+---
+
+# Aufbau eines Glossarbegriffs
 
 Jeder Begriff folgt derselben Struktur.
 
@@ -17,13 +68,14 @@ Jeder Begriff folgt derselben Struktur.
 | 🎯 Wozu dient das? | Praktischer Nutzen |
 | 🧠 Merksatz | Kurz merken |
 
-Danach folgen – sofern nötig – die Vertiefungen:
+Danach folgen – falls nötig – eingeklappte Bereiche.
 
 - 💡 Beispiel
 - 📚 Mehr wissen
 - ⚙️ Technischer Hintergrund
 - 💼 Mein Arbeitsalltag
 - 🔗 Siehe auch
+- 📖 Vertiefung
 
 ---
 
@@ -39,54 +91,60 @@ Danach folgen – sofern nötig – die Vertiefungen:
 | 📚 | Mehr wissen |
 | ⚙️ | Technischer Hintergrund |
 | 💼 | Mein Arbeitsalltag |
-| 🔗 | Siehe auch |
+| 🔗 | Verwandte Begriffe |
+| 📖 | Vertiefungsseite |
 
 ---
 
-# Struktur
+# Technische Regeln
 
-Neue Begriffe werden zuerst in der **Inbox** gesammelt.
-
-Erst wenn sie erklärt sind, werden sie ins Glossar übernommen.
-
-Das Glossar wird alphabetisch in **A.md bis Z.md** organisiert.
-
----
-
-# Technische Anforderungen
-
-- Muss in GitHub gut lesbar sein.
-- Muss in Obsidian gut lesbar sein.
+- Muss in GitHub gut funktionieren.
+- Muss in Obsidian gut funktionieren.
 - Möglichst reines Markdown verwenden.
-- Keine unnötigen Plugins.
-- Einheitliches Layout für alle Begriffe.
+- HTML ist erlaubt, wenn es von GitHub und Obsidian unterstützt wird.
+- Für einklappbare Bereiche wird `<details>` verwendet.
+- Neue Layout-Ideen werden immer zuerst in einer Testdatei geprüft.
+
+---
+
+# Strukturregeln
+
+Neue Begriffe kommen zuerst in die Inbox.
+
+Erst nach der Erklärung werden sie ins Glossar übernommen.
+
+Das Glossar wird regelmäßig alphabetisch gepflegt.
+
+---
+
+# Regeln für Vertiefungsseiten
+
+Eine Vertiefungsseite wird nur erstellt, wenn mindestens eine dieser Bedingungen erfüllt ist:
+
+- Der Glossareintrag wird zu lang.
+- Das Thema taucht häufig im Arbeitsalltag auf.
+- Es gibt mehrere Unterthemen.
+- Beispiele oder Grafiken wären hilfreich.
+
+Vertiefungsseiten werden niemals vorsorglich erstellt.
+
+Sie entstehen erst, wenn sie wirklich benötigt werden.
 
 ---
 
 # Design-Grundsätze
 
-- Das Glossar ist das Herzstück des Babs-Wikis.
+- Das Glossar beantwortet zuerst die wichtigste Frage.
 - Die wichtigsten Informationen stehen immer ganz oben.
-- Icons haben überall dieselbe Bedeutung.
-- Vertiefungen folgen erst darunter.
-- Ein Begriff beantwortet zuerst die Frage:
-
-> **„Wozu dient das?“**
-
-Erst danach folgen Beispiele und Hintergrundwissen.
+- Alle Begriffe haben denselben Aufbau.
+- Icons behalten immer dieselbe Bedeutung.
+- Übersicht vor Vollständigkeit.
+- Qualität vor Menge.
 
 ---
 
 # Änderungen
 
-Neue Ideen oder Verbesserungen werden zuerst getestet.
+Neue Ideen werden zuerst getestet.
 
-Erst wenn sie sich bewährt haben, werden sie für alle Begriffe übernommen.
-
-So bleibt das Glossar über Jahre hinweg einheitlich.
-
-# Vertiefungen
-
-Alle optionalen Informationen werden mit `<details>` umgesetzt.
-
-Dadurch bleibt jeder Begriff kompakt und sowohl in GitHub als auch in Obsidian übersichtlich.
+Erst wenn sie sich bewährt haben, werden sie für das gesamte Wiki übernommen.
