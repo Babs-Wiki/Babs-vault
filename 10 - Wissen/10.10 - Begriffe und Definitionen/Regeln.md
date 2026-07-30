@@ -1,18 +1,19 @@
 # Ziel
 
-Das Babs-Wiki soll ein persönliches Nachschlagewerk für den Arbeitsalltag und die Umschulung sein.
+Das Babs-Wiki ist mein persönliches Nachschlagewerk für den Arbeitsalltag und meine Umschulung.
 
-Das Ziel ist nicht, möglichst viele Informationen zu sammeln, sondern Wissen schnell wiederzufinden und Zusammenhänge zu verstehen.
+Das Ziel ist nicht, möglichst viele Informationen zu sammeln, sondern Wissen schnell wiederzufinden, Zusammenhänge zu verstehen und kontinuierlich auszubauen.
 
 ---
 
 # Aufbau des Wikis
 
-Das Wiki besteht aus drei Ebenen:
+Das Wiki besteht aus drei Ebenen.
 
-## 📚 Glossar
+<details>
+<summary>📚 Glossar</summary>
 
-Kurze Erklärungen zum schnellen Nachschlagen.
+Das Glossar dient dem schnellen Nachschlagen.
 
 Jeder Begriff beantwortet zuerst:
 
@@ -20,23 +21,29 @@ Jeder Begriff beantwortet zuerst:
 - Wozu dient das?
 - Merksatz
 
-Danach folgen – sofern nötig – Vertiefungen.
+Anschliessend folgen – falls nötig – Beispiele und Hintergrundwissen.
 
----
+</details>
 
-## 🔗 Lernketten
+<details>
+<summary>🔗 Lernketten</summary>
 
 Lernketten zeigen Zusammenhänge zwischen mehreren Begriffen.
 
-Sie dienen dem Verständnis und nicht als Nachschlagewerk.
+Sie helfen beim Verstehen und Lernen, ersetzen aber keine Glossareinträge.
 
----
+</details>
 
-## 📖 Vertiefungsseiten
+<details>
+<summary>📖 Vertiefungsseiten</summary>
 
-Vertiefungsseiten entstehen nur bei Themen, die umfangreicher werden.
+Vertiefungsseiten behandeln ein Thema ausführlich.
 
-Sie enthalten ausführliche Erklärungen, Beispiele und Hintergrundwissen.
+Sie enthalten zusätzliche Erklärungen, Beispiele, Grafiken oder weiterführende Informationen.
+
+Sie entstehen nur bei Bedarf.
+
+</details>
 
 ---
 
@@ -46,14 +53,16 @@ Das Glossar ist das Herzstück des Babs-Wikis.
 
 Es wird alphabetisch in A.md bis Z.md organisiert.
 
-Jede Datei beginnt mit einer Übersicht aller enthaltenen Begriffe.
+Jede Buchstabenseite beginnt mit einer Übersicht aller enthaltenen Begriffe.
 
 Beispiel:
 
+```markdown
 ## Übersicht
 
 - [API](#api)
 - [Asynchron](#asynchron)
+```
 
 ---
 
@@ -68,14 +77,57 @@ Jeder Begriff folgt derselben Struktur.
 | 🎯 Wozu dient das? | Praktischer Nutzen |
 | 🧠 Merksatz | Kurz merken |
 
-Danach folgen – falls nötig – eingeklappte Bereiche.
+Danach folgen – falls nötig – einklappbare Bereiche.
 
-- 💡 Beispiel
-- 📚 Mehr wissen
-- ⚙️ Technischer Hintergrund
-- 💼 Mein Arbeitsalltag
-- 🔗 Siehe auch
-- 📖 Vertiefung
+<details>
+<summary>💡 Beispiel</summary>
+
+Dieser Bereich enthält praktische Beispiele, welche den Begriff anhand einer realen Situation oder eines einfachen Vergleichs erklären.
+
+Nicht jeder Begriff benötigt zwingend ein Beispiel.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Zusätzliche Informationen, welche über das Grundverständnis hinausgehen.
+
+Dieser Bereich dient dem Vertiefen des Wissens.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Technische Zusammenhänge und Funktionsweisen, die für ein tieferes Verständnis hilfreich sind.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+Hier wird beschrieben, wo und wie mir dieser Begriff im Berufsalltag begegnet.
+
+Dadurch entsteht der Bezug zwischen Theorie und Praxis.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+Hier werden verwandte Glossarbegriffe verlinkt.
+
+</details>
+
+<details>
+<summary>📖 Vertiefung</summary>
+
+Falls später eine ausführliche Wissensseite zu diesem Thema erstellt wird, wird sie hier verlinkt.
+
+Vertiefungsseiten entstehen nur dann, wenn sie wirklich benötigt werden.
+
+</details>
 
 ---
 
@@ -92,59 +144,93 @@ Danach folgen – falls nötig – eingeklappte Bereiche.
 | ⚙️ | Technischer Hintergrund |
 | 💼 | Mein Arbeitsalltag |
 | 🔗 | Verwandte Begriffe |
-| 📖 | Vertiefungsseite |
+| 📖 | Weiterführende Wissensseite |
 
 ---
 
 # Technische Regeln
 
-- Muss in GitHub gut funktionieren.
-- Muss in Obsidian gut funktionieren.
-- Möglichst reines Markdown verwenden.
-- HTML ist erlaubt, wenn es von GitHub und Obsidian unterstützt wird.
-- Für einklappbare Bereiche wird `<details>` verwendet.
+<details>
+<summary>💻 GitHub & Obsidian</summary>
+
+- Das Wiki muss in GitHub gut funktionieren.
+- Das Wiki muss in Obsidian gut funktionieren.
+- GitHub ist das Referenzsystem für die Darstellung.
+
+</details>
+
+<details>
+<summary>📝 Markdown & HTML</summary>
+
+- Es wird möglichst reines Markdown verwendet.
+- HTML darf verwendet werden, wenn es sowohl von GitHub als auch von Obsidian unterstützt wird.
+- Für einklappbare Bereiche wird das HTML-Element `<details>` verwendet.
+- Markdown-Überschriften dienen ausschliesslich der Gliederung.
+- Das Einklappen von Überschriften ist eine Obsidian-Funktion und wird nicht vorausgesetzt.
+
+</details>
+
+<details>
+<summary>🧪 Testen</summary>
+
 - Neue Layout-Ideen werden immer zuerst in einer Testdatei geprüft.
+
+</details>
 
 ---
 
 # Strukturregeln
 
-Neue Begriffe kommen zuerst in die Inbox.
+<details>
+<summary>📂 Organisation</summary>
+
+Neue Begriffe werden zuerst in der Inbox gesammelt.
 
 Erst nach der Erklärung werden sie ins Glossar übernommen.
 
-Das Glossar wird regelmäßig alphabetisch gepflegt.
+Das Glossar wird alphabetisch gepflegt.
+
+Jede Buchstabenseite beginnt mit einer Übersicht aller enthaltenen Begriffe.
+
+Neue Begriffe werden dort alphabetisch ergänzt.
+
+</details>
 
 ---
 
 # Regeln für Vertiefungsseiten
 
-Eine Vertiefungsseite wird nur erstellt, wenn mindestens eine dieser Bedingungen erfüllt ist:
+<details>
+<summary>📖 Wann entsteht eine Vertiefungsseite?</summary>
 
-- Der Glossareintrag wird zu lang.
+Eine Vertiefungsseite wird nur erstellt, wenn mindestens eine der folgenden Bedingungen erfüllt ist:
+
+- Der Glossareintrag wird zu umfangreich.
 - Das Thema taucht häufig im Arbeitsalltag auf.
 - Es gibt mehrere Unterthemen.
-- Beispiele oder Grafiken wären hilfreich.
+- Beispiele, Grafiken oder ausführliche Erklärungen sind sinnvoll.
 
-Vertiefungsseiten werden niemals vorsorglich erstellt.
+Vertiefungsseiten werden nicht vorsorglich erstellt.
 
-Sie entstehen erst, wenn sie wirklich benötigt werden.
+Sie entstehen erst dann, wenn sie tatsächlich benötigt werden.
+
+Im Glossareintrag wird anschliessend unter 📖 Vertiefung auf die entsprechende Wissensseite verwiesen.
+
+</details>
 
 ---
 
 # Design-Grundsätze
 
-- Das Glossar beantwortet zuerst die wichtigste Frage.
+<details>
+<summary>🎨 Grundsätze</summary>
+
+- Das Glossar ist das Herzstück des Wikis.
 - Die wichtigsten Informationen stehen immer ganz oben.
-- Alle Begriffe haben denselben Aufbau.
-- Icons behalten immer dieselbe Bedeutung.
-- Übersicht vor Vollständigkeit.
-- Qualität vor Menge.
+- Alle Glossarbegriffe besitzen denselben Aufbau.
+- Icons behalten im gesamten Wiki dieselbe Bedeutung.
+- Übersicht ist wichtiger als Vollständigkeit.
+- Qualität ist wichtiger als Menge.
+- Das Wiki wächst mit meinem Wissen.
 
----
-
-# Änderungen
-
-Neue Ideen werden zuerst getestet.
-
-Erst wenn sie sich bewährt haben, werden sie für das gesamte Wiki übernommen.
+</details>
