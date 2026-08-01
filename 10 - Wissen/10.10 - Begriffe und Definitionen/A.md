@@ -1,8 +1,11 @@
 
 ## Begriffe
 
+
+- [Alerting](#alerting)
 - [API](#api)
-- [Asynchron](#asynchron)
+- [Assignee](#assignee)
+- [Asynchron](S.md#synchron-und-asynchron)
 
 ---
 
@@ -61,68 +64,147 @@ Wenn zwei Anwendungen Informationen austauschen oder ein Webservice Daten liefer
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- Webservice
-- XML
-- JSON
-- Frontend
-- Backend
+- [Webservice](W.md#webservice)
+- [XML](X.md#xml)
+- [JSON](J.md#json)
+- [Frontend](F.md#frontend)
+- [Backend](B.md#backend)
 
 </details>
 
 ---
 
-# Asynchron
+### Synchron und asynchron
 
-| Bereich | Inhalt |
-|---|---|
-| 🇬🇧 Englisch | Asynchronous |
-| 🇩🇪 Deutsch | Asynchron |
-| 🎯 Wozu dient das? | Aufgaben können gleichzeitig oder unabhängig voneinander ausgeführt werden, ohne dass ein Programm auf die andere Aufgabe warten muss. |
-| 🧠 Merksatz | **Asynchron = Nicht warten – einfach weiterarbeiten.** |
+| Begriff | Deutsch | Merksatz |
+|----------|---------|----------|
+| **Synchron / asynchron** | Wartend / unabhängig weiterarbeitend | **Synchron wartet auf die Antwort – asynchron arbeitet währenddessen weiter.** |
+
+Bei einer **synchronen** Verarbeitung wartet der Aufrufer, bis eine Aufgabe abgeschlossen ist und eine Antwort zurückkommt.
+
+Bei einer **asynchronen** Verarbeitung kann der Aufrufer weiterarbeiten. Die Antwort oder das Ergebnis wird später geliefert.
 
 <details>
 <summary>💡 Beispiel</summary>
 
-Du sendest eine E-Mail und arbeitest sofort weiter.
+**Synchron:**
 
-Währenddessen wird die E-Mail im Hintergrund verschickt.
+Eine Anwendung fragt Daten bei einem Server ab. Bis die Antwort kommt, kann sie an dieser Stelle nicht weiterarbeiten.
 
-Genau das ist asynchron.
+**Asynchron:**
 
-</details>
-
-<details>
-<summary>📚 Mehr wissen</summary>
-
-Asynchrones Arbeiten macht Programme schneller und sorgt dafür, dass Benutzeroberflächen nicht "einfrieren".
+Eine Anwendung startet einen längeren Datenexport. Während der Export läuft, kann die Benutzerin weitere Aufgaben erledigen. Nach Abschluss erscheint eine Benachrichtigung.
 
 </details>
 
 <details>
-<summary>⚙️ Technischer Hintergrund</summary>
+<summary>📚 Mehr Wissen</summary>
 
-Eine Aufgabe wird gestartet und läuft im Hintergrund weiter.
+Synchrone Abläufe sind oft einfacher zu verstehen und umzusetzen.
 
-Sobald sie fertig ist, erhält das Programm eine Rückmeldung oder verarbeitet das Ergebnis.
+Asynchrone Abläufe eignen sich besonders für Aufgaben, die länger dauern oder unabhängig im Hintergrund ausgeführt werden können.
+
+Typische Beispiele sind:
+
+- Datei-Uploads
+- Datenexporte
+- E-Mail-Versand
+- Hintergrundverarbeitung
+- Nachrichtenwarteschlangen
 
 </details>
 
 <details>
-<summary>💼 Mein Arbeitsalltag</summary>
+<summary>⚙️ Technik</summary>
 
-Bei Webservices oder Datenimporten werden Prozesse oft asynchron ausgeführt.
+Synchron wird häufig auch als **blockierend** bezeichnet, weil der weitere Ablauf bis zur Antwort blockiert ist.
 
-Dadurch können Benutzer weiterarbeiten, während Daten verarbeitet werden.
+Asynchron wird häufig mit folgenden Techniken umgesetzt:
 
-</details>
+- Callbacks
+- Promises
+- Events
+- Warteschlangen
+- Hintergrundprozesse
 
-<details>
-<summary>🔗 Siehe auch</summary>
-
-- Synchron
-- API
-- Webservice
-- Queue
-- Puffer
+Asynchron bedeutet nicht automatisch, dass mehrere Aufgaben gleichzeitig ausgeführt werden. Es bedeutet zunächst nur, dass nicht auf den Abschluss gewartet werden muss.
 
 </details> 
+
+### Assignee
+
+| Begriff | Deutsch | Merksatz |
+|----------|----------|----------|
+| **Assignee** | Zuständige Person / Bearbeiter | **Der Assignee ist die Person, die für die Aufgabe verantwortlich ist.** |
+
+Die Person, der ein Ticket, eine Aufgabe oder ein Vorgang zur Bearbeitung zugewiesen wurde.
+
+<details>
+<summary>💡 Beispiel</summary>
+
+Im Jira-Ticket steht:
+
+**Assignee:** Barbara Muster
+
+Barbara ist für die Bearbeitung dieses Tickets verantwortlich.
+
+</details>
+
+<details>
+<summary>📚 Mehr Wissen</summary>
+
+Der Assignee kann während der Bearbeitung geändert werden. Fast jedes Ticketsystem (z. B. Jira oder Azure DevOps) verwendet einen Assignee.
+
+</details>
+
+<details>
+<summary>⚙️ Technik</summary>
+
+Der Assignee ist ein Benutzerkonto im Ticketsystem und dient der Zuweisung sowie Nachverfolgung von Aufgaben.
+
+</details>
+
+### Alerting
+
+| Begriff | Deutsch | Merksatz |
+|----------|---------|----------|
+| **Alerting** | Automatische Alarmierung oder Benachrichtigung | **Alerting meldet automatisch, wenn etwas Aufmerksamkeit benötigt.** |
+
+Alerting bezeichnet die automatische Benachrichtigung bei Fehlern, Warnungen oder wichtigen Ereignissen in einem System.
+
+<details>
+<summary>💡 Beispiel</summary>
+
+Ein Server ist nicht mehr erreichbar.
+
+Das Überwachungssystem sendet automatisch eine Meldung an das zuständige Informatikteam.
+
+</details>
+
+<details>
+<summary>📚 Mehr Wissen</summary>
+
+Ein Alert kann beispielsweise ausgelöst werden, wenn:
+
+- ein System ausfällt
+- ein Fehler häufig auftritt
+- der Speicherplatz knapp wird
+- eine Antwortzeit zu hoch ist
+- ein Sicherheitsereignis erkannt wird
+
+Benachrichtigungen können per E-Mail, SMS, Chat oder über ein Ticketsystem versendet werden.
+
+</details>
+
+<details>
+<summary>⚙️ Technik</summary>
+
+Alerting baut meistens auf einem Monitoring-System auf.
+
+**Monitoring** sammelt und überwacht Messwerte.
+
+**Alerting** reagiert darauf, wenn ein definierter Grenzwert überschritten oder eine bestimmte Bedingung erfüllt wird.
+
+Zu viele unwichtige Meldungen können zu **Alert Fatigue** führen. Dabei werden wichtige Warnungen möglicherweise übersehen.
+
+</details>

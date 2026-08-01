@@ -50,3 +50,7 @@ Sara in SAP ICM?
 Queue...
 Cordova
 Plugin
+Anonymisierungstools
+Canvas klären, was da gemeint ist
+SAS bedeutung
+Feature creep

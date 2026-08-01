@@ -53,3 +53,4 @@ In SAP, Datenbanken oder Schnittstellen begegnen dir GUIDs häufig als eindeutig
 - Token
 
 </details>
+
