@@ -1,6 +1,7 @@
 - [Performant und inperformant](#performant-und-inperformant)
 - [Plain Text](#plain-text)
 - [POC](#poc)
+- [Primärschlüssel](#primärschlüssel)
 - [Proxy](#proxy)
 - [Puffer](#puffer)
 
@@ -250,7 +251,7 @@ Ist ein Puffer voll, muss das System festlegen, ob es neue Daten ablehnt, wartet
 
 - [Cache](C.md#cache)
 - [Synchron und asynchron](S.md#synchron-und-asynchron)
-- [Webservice](W.md#webservice)
+- [[Webservice|websevice]]
 
 </details>
 
@@ -258,5 +259,68 @@ Ist ein Puffer voll, muss das System festlegen, ob es neue Daten ablehnt, wartet
 <summary>📖 Vertiefung</summary>
 
 - [Puffer – ausführliche Erklärung](<../10.60 - Vertiefungsseiten/Puffer.md>)
+
+</details>
+
+## Primärschlüssel
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | Primary Key |
+| 🇩🇪 **Deutsch** | Primärschlüssel |
+| 🎯 **Wozu dient das?** | Ein Primärschlüssel kennzeichnet jeden Datensatz in einer Datenbanktabelle eindeutig. Dadurch kann ein Datensatz zuverlässig gefunden und von allen anderen unterschieden werden. |
+| 🧠 **Merksatz** | **Der Primärschlüssel ist die eindeutige Identitätsnummer eines Datensatzes.** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+In einer Tabelle mit Personen könnten mehrere Personen gleich heissen.
+
+Darum erhält jede Person eine eindeutige Nummer:
+
+| Personen-ID | Name |
+|---|---|
+| 1001 | Anna Müller |
+| 1002 | Anna Müller |
+
+Die **Personen-ID** ist der Primärschlüssel. Obwohl beide Personen gleich heissen, können ihre Datensätze eindeutig unterschieden werden.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Ein Primärschlüssel:
+
+- darf innerhalb einer Tabelle nicht doppelt vorkommen,
+- darf normalerweise nicht leer sein,
+- sollte sich möglichst nicht verändern.
+
+Häufig wird dafür eine automatisch vergebene ID verwendet.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Ein Primärschlüssel besteht meistens aus einer einzelnen Spalte, zum Beispiel `Personen-ID`.
+
+Er kann aber auch aus mehreren Spalten zusammengesetzt sein. Das nennt man einen **zusammengesetzten Primärschlüssel**.
+
+Andere Tabellen können über einen Fremdschlüssel auf diesen Primärschlüssel verweisen. Dadurch entstehen Beziehungen zwischen Tabellen.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+Bei Tests oder Fehlersuchen können eindeutige IDs helfen, genau den richtigen Datensatz zu finden – zum Beispiel eine bestimmte Person, ein Ereignis, ein Dokument oder einen Vorgang.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [[D#Datenbank|Datenbank]]
 
 </details>

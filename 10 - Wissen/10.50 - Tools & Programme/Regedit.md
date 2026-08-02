@@ -291,8 +291,9 @@ Bei einer Hersteller- oder Supportanleitung kann folgendes Vorgehen helfen:
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [Regedit im Glossar](<../10.10 - Glossar/R.md#regedit>)
-- [Registry im Glossar](<../10.10 - Glossar/R.md#registry>)
-- [Windows – Kurzbefehle & Befehle](<Windows – Kurzbefehle & Befehle.md>)
+- [Regedit im Glossar](R.md#regedit)
+- [Registry im Glossar](R.md#registry)
+- [[10 - Wissen/10.50 - Tools & Programme/Windows – Kurzbefehle & Befehle|Windows – Kurzbefehle & Befehle]]
+
 
 </details>

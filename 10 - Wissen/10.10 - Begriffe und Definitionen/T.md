@@ -46,8 +46,8 @@ APIs, Webservices und Cloud-Dienste verwenden häufig Tokens zur Authentifizieru
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- API
-- Authentifizierung
-- OAuth
+- [API](A.md#api)
+- [Authentifizierung](A.md#authentifizierung)
+- [OAuth](O.md#oauth)
 
 </details>

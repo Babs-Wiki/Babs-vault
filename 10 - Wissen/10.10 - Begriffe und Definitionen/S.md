@@ -1,5 +1,6 @@
 - [Scope](#scope)
 - [Smart Value Help](#smart-value-help)
+- [SQL](#sql)
 - [Synchron und asynchron](#synchron-und-asynchron)
 
 ### Scope
@@ -139,5 +140,78 @@ Die Value Help kann abhängig von bereits ausgefüllten Feldern gefiltert werden
 Beispielsweise werden nach der Auswahl eines Landes nur noch Orte aus diesem Land vorgeschlagen.
 
 Der genaue Funktionsumfang hängt von der verwendeten Anwendung oder dem eingesetzten Framework ab.
+
+</details>
+
+## SQL
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | Structured Query Language |
+| 🇩🇪 **Deutsch** | Strukturierte Abfragesprache |
+| 🎯 **Wozu dient das?** | Mit SQL können Daten in relationalen Datenbanken gesucht, eingefügt, geändert und gelöscht werden. |
+| 🧠 **Merksatz** | **SQL ist die Sprache, mit der man einer Datenbank sagt, was sie mit den Daten tun soll.** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+Mit dieser SQL-Abfrage werden alle Personen mit dem Nachnamen `Muster` gesucht:
+
+```sql
+SELECT *
+FROM Personen
+WHERE Nachname = 'Muster';
+```
+
+- `SELECT` bestimmt, welche Daten angezeigt werden.
+- `FROM` nennt die Tabelle.
+- `WHERE` legt die Bedingung fest.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Häufige SQL-Befehle sind:
+
+- `SELECT` – Daten abfragen
+- `INSERT` – neue Daten einfügen
+- `UPDATE` – bestehende Daten ändern
+- `DELETE` – Daten löschen
+
+SQL wird von vielen relationalen Datenbanksystemen verwendet. Die genaue Schreibweise kann sich je nach System leicht unterscheiden.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Eine SQL-Anweisung wird an das Datenbanksystem geschickt. Dieses prüft die Anweisung, sucht die gewünschten Daten und liefert ein Ergebnis zurück.
+
+SQL kann auch verwendet werden, um:
+
+- Tabellen miteinander zu verbinden,
+- Ergebnisse zu sortieren,
+- Daten zu gruppieren,
+- Berechnungen durchzuführen,
+- Tabellen und Datenbankstrukturen anzulegen.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+Bei Tests oder Fehlersuchen können SQL-Abfragen helfen, Daten direkt in einer Datenbank zu kontrollieren und mit den Angaben in einer Anwendung zu vergleichen.
+
+Auch wenn ich die Abfrage nicht selbst schreibe, hilft mir das Grundverständnis dabei, technische Erklärungen von Entwicklerinnen und Entwicklern besser nachzuvollziehen.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [Datenbank](D.md#datenbank)
+- [Primärschlüssel](P.md#primärschlüssel)
+- [Query](Q.md#query)
 
 </details>

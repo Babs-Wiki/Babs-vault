@@ -100,7 +100,6 @@ Bei Tests kann ich prüfen:
 - [Datenbank](D.md#datenbank)
 - [LEFT JOIN](L.md#left-join)
 - [Performant und inperformant](P.md#performant-und-inperformant)
-- Filter
-- SQL
+- [SQL](s.md#sql)
 
 </details>

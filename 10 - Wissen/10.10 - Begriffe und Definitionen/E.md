@@ -102,6 +102,6 @@ Relevante Angaben können anschliessend für ein Ticket oder eine Rückfrage dok
 <details>
 <summary>📖 Vertiefung</summary>
 
-- [Windows-Ereignisanzeige – ausführliche Erklärung](<../10.50 - Tools & Programme/Windows – Ereignisanzeige.md>)
+- [Windows-Ereignisanzeige – ausführliche Erklärung](<../10.50 - Tools & Programme/Windows - Ereignisanzeige.md>)
 
 </details>

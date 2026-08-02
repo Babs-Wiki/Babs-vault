@@ -1,4 +1,5 @@
 - [Backend](#backend)
+- [Browser](#browser)
 
 ### Backend
 
@@ -110,8 +111,81 @@ Dabei kann wichtig sein zu unterscheiden:
 - [Frontend](F.md#frontend)
 - [API](A.md#api)
 - [Datenbank](D.md#datenbank)
-- [Webservice](W.md#webservice)
+- [[Webservice|Webservice]]
 - [JSON](J.md#json)
 - [XML](X.md#xml)
+
+</details>
+
+## Browser
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | Browser / Web Browser |
+| 🇩🇪 **Deutsch** | Webbrowser |
+| 🎯 **Wozu dient das?** | Ein Browser ruft Webseiten und Webanwendungen auf, verarbeitet deren Inhalte und stellt sie auf dem Bildschirm dar. |
+| 🧠 **Merksatz** | **Der Browser liest den Webcode und macht daraus die sichtbare Webseite.** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+Bekannte Browser sind:
+
+- Microsoft Edge
+- Google Chrome
+- Mozilla Firefox
+- Safari
+
+Wenn ich GitHub öffne, lädt der Browser die Inhalte und stellt Schaltflächen, Texte, Tabellen und Links sichtbar dar.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Ein Browser verarbeitet unter anderem:
+
+- **HTML** für Aufbau und Inhalt,
+- **CSS** für das Aussehen,
+- **JavaScript** für Funktionen und Interaktionen.
+
+Die Darstellung einer Webseite im Browser nennt man **Rendern**.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Der Browser lädt die Dateien einer Webseite von einem Server.
+
+Aus dem HTML erstellt er das **DOM**. Anschliessend verarbeitet er die CSS-Regeln und stellt die einzelnen Elemente auf dem Bildschirm dar.
+
+Browser besitzen ausserdem Funktionen für:
+
+- Sicherheit,
+- Cookies,
+- Zwischenspeicherung,
+- Downloads,
+- Erweiterungen,
+- Entwicklerwerkzeuge.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+Im Büro greife ich über den Browser auf GitHub und andere Webanwendungen zu.
+
+Bei Tests können Fehler entweder in der Anwendung selbst oder bei der Darstellung und Verarbeitung durch den Browser auftreten.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [CSS](C.md#css)
+- [DOM](D.md#dom)
+- [HTML](H.md#html)
+- [Rendern](R.md#rendern)
 
 </details>

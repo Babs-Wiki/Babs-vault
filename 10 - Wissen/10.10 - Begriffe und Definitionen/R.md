@@ -74,11 +74,11 @@ Wenn etwas falsch dargestellt wird, spricht man oft von einem Rendering-Problem.
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- Markdown
-- HTML
-- Browser
-- DOM (später)
-- CSS (später)
+- [Markdown](M.md#markdown)
+- [HTML](H.md#html)
+- [Browser](B.md#browser)
+- [DOM](D.md#dom)
+- [CSS](C.md#css)
 
 </details>
 

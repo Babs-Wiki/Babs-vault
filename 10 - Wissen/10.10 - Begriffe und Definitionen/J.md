@@ -99,7 +99,7 @@ Dabei kann ich prüfen:
 <summary>🔗 Siehe auch</summary>
 
 - [API](A.md#api)
-- [Webservice](W.md#webservice)
+- [[Webservice|Webservice]]
 - [XML](X.md#xml)
 - [Frontend](F.md#frontend)
 - [Backend](B.md#backend)

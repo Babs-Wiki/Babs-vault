@@ -55,10 +55,9 @@ GitHub rendert daraus automatisch schön formatierte Seiten.
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- HTML
-- Rendern
-- GitHub
-- Obsidian
+- [HTML](H.md#html)
+- [Rendern](R.md#rendern)
+- [GitHub](G.md#github)
 
 </details>
 
@@ -142,9 +141,9 @@ Bei Tests kann ich prüfen:
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [Webservice](W.md#webservice)
+- [[Webservice|webservice]]
 - [XML](X.md#xml)
-- Schnittstelle
-- Datenformat
+- [Schnittstelle](S.md#schnittstelle)
+- [Datenformat](D.md#datenformat)
 
 </details>

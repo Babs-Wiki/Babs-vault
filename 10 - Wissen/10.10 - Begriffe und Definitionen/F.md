@@ -105,7 +105,7 @@ Die Ursache kann auch im Backend, im Webservice oder in den gelieferten Daten li
 
 - [Backend](B.md#backend)
 - [API](A.md#api)
-- [Webservice](W.md#webservice)
+- [[Webservice|Webservice]]
 - [JSON](J.md#json)
 - [XML](X.md#xml)
 

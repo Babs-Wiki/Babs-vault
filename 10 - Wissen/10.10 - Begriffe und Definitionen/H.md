@@ -1,4 +1,5 @@
 - [Hotfix](#hotfix)
+- [HTML](#html)
 
 ### Hotfix
 
@@ -45,5 +46,63 @@ Wichtige Punkte sind:
 - Möglichkeit zum Zurücksetzen der Änderung
 
 Das Zurücksetzen auf den vorherigen Stand wird als **Rollback** bezeichnet.
+
+</details>
+
+## HTML
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | HyperText Markup Language |
+| 🇩🇪 **Deutsch** | Hypertext-Auszeichnungssprache |
+| 🎯 **Wozu dient das?** | HTML beschreibt den Aufbau und die Inhalte einer Webseite, zum Beispiel Überschriften, Texte, Tabellen, Bilder und Links. |
+| 🧠 **Merksatz** | **HTML ist das Grundgerüst einer Webseite.** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+```html
+<h1>Meine Überschrift</h1>
+<p>Das ist ein Textabschnitt.</p>
+```
+
+`<h1>` kennzeichnet eine Überschrift und `<p>` einen Textabschnitt.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+HTML ist keine Programmiersprache, sondern eine **Auszeichnungssprache**. Sie beschreibt, welche Bedeutung und Struktur Inhalte auf einer Webseite haben.
+
+Für das Aussehen wird meistens **CSS** verwendet. Für Funktionen und Interaktionen kommt häufig **JavaScript** dazu.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+HTML besteht aus sogenannten Elementen beziehungsweise Tags. Viele Elemente besitzen einen öffnenden und einen schliessenden Tag:
+
+```html
+<p>Text</p>
+```
+
+Der Browser liest das HTML und stellt den Inhalt anschliessend sichtbar dar. Dies nennt man **Rendern**.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+HTML begegnet mir beispielsweise bei Webseiten, Benutzeroberflächen und den einklappbaren `<details>`-Bereichen in meinem Babs-Wiki.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [Rendern](R.md#rendern)
+- [GitHub](G.md#github)
 
 </details>

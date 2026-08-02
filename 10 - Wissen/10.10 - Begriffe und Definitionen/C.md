@@ -1,4 +1,5 @@
 - [Cache](#cache)
+- [CSS](#css)
 
 ### Cache
 
@@ -60,5 +61,92 @@ Fehlt der Wert und muss zuerst aus der ursprünglichen Quelle geladen werden, sp
 
 - [Puffer](P.md#puffer)
 - [Redis](R.md#redis)
+
+</details>
+
+## CSS
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | Cascading Style Sheets |
+| 🇩🇪 **Deutsch** | Kaskadierende Formatvorlagen |
+| 🎯 **Wozu dient das?** | CSS bestimmt das Aussehen und die Anordnung von HTML-Elementen, zum Beispiel Farben, Abstände, Schriftgrössen und Positionen. |
+| 🧠 **Merksatz** | **HTML baut die Webseite auf – CSS gestaltet sie.** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+HTML erstellt einen Textabschnitt:
+
+```html
+<p>Hallo Babs</p>
+```
+
+CSS bestimmt dessen Aussehen:
+
+```css
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+```
+
+Dadurch wird der Text grösser und fett dargestellt.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Mit CSS können unter anderem festgelegt werden:
+
+- Schriftart und Schriftgrösse,
+- Farben,
+- Abstände,
+- Rahmen,
+- Breite und Höhe,
+- Positionen,
+- Anordnungen von Elementen,
+- Darstellung auf unterschiedlichen Bildschirmgrössen.
+
+CSS verändert normalerweise nicht den Inhalt einer Webseite, sondern dessen Darstellung.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Eine CSS-Regel besteht meistens aus:
+
+```css
+p {
+  font-size: 18px;
+}
+```
+
+- `p` ist der **Selektor**. Er bestimmt, welches Element angesprochen wird.
+- `font-size` ist die **Eigenschaft**.
+- `18px` ist der zugewiesene **Wert**.
+
+Das Wort **Cascading** bedeutet, dass mehrere Gestaltungsregeln zusammenwirken können. Dabei entscheidet eine festgelegte Reihenfolge, welche Regel angewendet wird.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+CSS begegnet mir bei Webseiten und webbasierten Benutzeroberflächen.
+
+Darstellungsfehler wie falsche Abstände, verschobene Felder oder schlecht angeordnete Schaltflächen können mit CSS zusammenhängen.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [Browser](B.md#browser)
+- [DOM](D.md#dom)
+- [HTML](H.md#html)
+- [Rendern](R.md#rendern)
 
 </details>

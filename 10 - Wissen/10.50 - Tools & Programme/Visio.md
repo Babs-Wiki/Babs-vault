@@ -274,11 +274,8 @@ Zu viele Formen, Pfeile oder Farben können ein Diagramm unübersichtlich machen
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [Visio im Glossar](<../10.10 - Glossar/V.md#visio>)
-- Prozessdiagramm
-- Flussdiagramm
-- Datenfluss
-- Mapping
-- Webservice
+- [Visio im Glossar](V.md#visio)
+- [Mapping im Glossar](M.md#mapping)
+- [[Webservice|Webservice]]
 
 </details>

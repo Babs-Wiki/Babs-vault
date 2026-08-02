@@ -1,3 +1,5 @@
+## Begriffe
+
 - [Visio](#visio)
 
 ### Visio
@@ -79,10 +81,7 @@ Ein Diagramm hilft mir beispielsweise zu erkennen:
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- Prozessdiagramm
-- Flussdiagramm
-- Datenfluss
-- Webservice
+- [[Webservice|Webservice]]
 
 </details>
 

@@ -6,6 +6,7 @@
 - [API](#api)
 - [Assignee](#assignee)
 - [Asynchron](S.md#synchron-und-asynchron)
+- [Authentifizierung](#authentifizierung)
 
 ---
 
@@ -64,7 +65,7 @@ Wenn zwei Anwendungen Informationen austauschen oder ein Webservice Daten liefer
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [Webservice](W.md#webservice)
+- [[Webservice|Webservice]]
 - [XML](X.md#xml)
 - [JSON](J.md#json)
 - [Frontend](F.md#frontend)
@@ -206,5 +207,66 @@ Alerting baut meistens auf einem Monitoring-System auf.
 **Alerting** reagiert darauf, wenn ein definierter Grenzwert überschritten oder eine bestimmte Bedingung erfüllt wird.
 
 Zu viele unwichtige Meldungen können zu **Alert Fatigue** führen. Dabei werden wichtige Warnungen möglicherweise übersehen.
+
+</details>
+
+### Authentifizierung
+
+| Feld | Inhalt |
+|------|--------|
+| 🇬🇧 **Englisch** | Authentication |
+| 🇩🇪 **Deutsch** | Authentifizierung / Identitätsprüfung |
+| 🎯 **Wozu dient das?** | Bei der Authentifizierung prüft ein System, ob eine Person oder ein anderes System wirklich die angegebene Identität besitzt. |
+| 🧠 **Merksatz** | **Authentifizierung beantwortet die Frage: Wer bist du?** |
+
+<details>
+<summary>💡 Beispiel</summary>
+
+Bei der Anmeldung kann die Identität beispielsweise geprüft werden durch:
+
+- Benutzername und Passwort,
+- Fingerabdruck oder Gesichtserkennung,
+- einen Bestätigungscode,
+- eine Anmeldung über Apple oder einen anderen Anbieter.
+
+Bei meiner ChatGPT-Anmeldung bestätigt Apple gegenüber ChatGPT, dass ich erfolgreich bei Apple angemeldet wurde.
+
+</details>
+
+<details>
+<summary>📚 Mehr wissen</summary>
+
+Authentifizierung und Berechtigung sind nicht dasselbe:
+
+- **Authentifizierung:** Wer bist du?
+- **Autorisierung:** Was darfst du?
+
+Nach einer erfolgreichen Authentifizierung erhält eine Person häufig ein Token. Dieses dient danach als digitaler Nachweis für die laufende Sitzung.
+
+</details>
+
+<details>
+<summary>⚙️ Technischer Hintergrund</summary>
+
+Nach der erfolgreichen Identitätsprüfung kann ein System ein zeitlich begrenztes Token ausstellen.
+
+Bei späteren Anfragen wird dieses Token mitgesendet. Dadurch muss das Passwort nicht bei jeder einzelnen Aktion erneut übertragen werden.
+
+</details>
+
+<details>
+<summary>💼 Mein Arbeitsalltag</summary>
+
+Authentifizierung begegnet mir bei der Anmeldung an Anwendungen, bei Benutzerkonten und bei Schnittstellen.
+
+Bei Tests kann ich beispielsweise prüfen, ob eine Anmeldung funktioniert und ob nicht angemeldete Personen korrekt abgewiesen werden.
+
+</details>
+
+<details>
+<summary>🔗 Siehe auch</summary>
+
+- [OAuth](O.md#oauth)
+- [Token](T.md#token)
 
 </details>
