@@ -65,7 +65,7 @@ Wenn zwei Anwendungen Informationen austauschen oder ein Webservice Daten liefer
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [Webservice](Webservice.md)
+- [Webservice](Webservice.md)]
 - [XML](X.md#xml)
 - [JSON](J.md#json)
 - [Frontend](F.md#frontend)
