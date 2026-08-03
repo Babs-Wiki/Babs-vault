@@ -117,7 +117,7 @@ Viele Anwendungen bei der Kantonspolizei arbeiten mit Datenbanken im Hintergrund
 <details>
 <summary>🔗 Siehe auch</summary>
 
-- [[A#API|API]]
+- [API](a.md#API)
 - [[B#Backend|Backend]]
 - [[D#Delta Load|Delta Load]]
 - [[F#Full Load|Full Load]]
