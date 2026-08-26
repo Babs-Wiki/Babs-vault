@@ -41,7 +41,6 @@
 | Polap (?)                                                        |
 | Proxi                                                            |
 | Q User                                                           |
-| Queri = Abfrage?                                                 |
 | Queue...                                                         |
 | Radis (?) Statistik-Tool                                         |
 | RAL                                                              |
