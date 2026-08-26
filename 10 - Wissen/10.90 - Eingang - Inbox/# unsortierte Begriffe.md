@@ -39,12 +39,10 @@
 | Otosam (evtl. SKL)                                               |
 | Plugin                                                           |
 | Polap (?)                                                        |
-| Proxi                                                            |
 | Q User                                                           |
 | Queue...                                                         |
 | Radis (?) Statistik-Tool                                         |
 | RAL                                                              |
-| Registry                                                         |
 | Repos?                                                           |
 | Robocopi?                                                        |
 | Sara in SAP ICM?                                                 |
