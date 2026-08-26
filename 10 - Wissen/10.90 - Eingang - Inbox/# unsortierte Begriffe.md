@@ -4,14 +4,12 @@
 | AD                                                               |
 | Airlock                                                          |
 | Anonymisierungstools                                             |
-| Anonymisierungstools                                             |
 | Avanti DV net                                                    |
-| Awarnesskampagnie?                                               |
+| Awareness-kampagne                                           |
 | BD/RS/PRA                                                        |
 | Bougart (?)                                                      |
 | BRF+ Regeln                                                      |
 | CAB =                                                            |
-| Canvas                                                           |
 | Canvas klären, was da gemeint ist                                |
 | CMI = Programm für Geschäftskontrolle                            |
 | Config files?                                                    |
@@ -21,8 +19,7 @@
 | Eraneo                                                           |
 | Fat Client                                                       |
 | Feature Creep (?)                                                |
-| Feature creep                                                    |
-| geklastert                                                       |
+| geclustert                                                      |
 | GOK                                                              |
 | GPO = Irgnedwie interne Regeln in den einstellungen der User PCs |
 | Ini File                                                         |
@@ -41,16 +38,14 @@
 | Polap (?)                                                        |
 | Q User                                                           |
 | Queue...                                                         |
-| Radis (?) Statistik-Tool                                         |
+| Radis Statistik-Tool                                         |
 | RAL                                                              |
 | Repos?                                                           |
-| Robocopi?                                                        |
+| Robocopy                                                        |
 | Sara in SAP ICM?                                                 |
-| SAS                                                              |
 | SAS bedeutung                                                    |
 | Scope Creep (?)                                                  |
 | Slight                                                           |
 | SZP                                                              |
-| test                                                             |
 | White Links                                                      |
 |Cron job|
