@@ -49,7 +49,16 @@
 | SZP                                                              |
 | White Links                                                      |
 |Cron job|
-|Promptings ?|
+|Promptings ?||
 |On Prem|
 |Packet Launcher|
 |Staging|
+|TCP (Transmission Control Protocol)|
+|TCP_ANY|
+|7IP_ANY|
+|SYN (Synchronize)|
+|ACK (Acknowledgment)|
+|TCP-Handshake|
+|7Lost Update|
+|Optimistic Locking|
+|Pessimistic Locking|
