@@ -64,4 +64,6 @@
 |Pessimistic Locking|
 |redirekt umleitung auf andere Seite|
 |customaising|
-
+|demand|
+|hosting|
+|konfigurieren vis programieren|
