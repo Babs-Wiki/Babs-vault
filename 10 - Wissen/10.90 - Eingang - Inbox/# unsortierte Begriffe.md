@@ -67,3 +67,4 @@
 |demand|
 |hosting|
 |konfigurieren vis programieren|
+|vipcoding, nocoding und noch einanders coding|
